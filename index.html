@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="icon" href="ppp.logo.png" type="image/png">
+    <title>FRANWEB</title>
+</head>
+<body>
+    <header class="header">
+        <input type="checkbox" id="open-menu" class="header__checkbox">
+        <label for="open-menu" class="header__open-menu-button" role="button
+        "><i class='bx bx-menu'></i></label>
+        <div class="header-img"><img src="ppp.logo.png" alt="logo de pompopurin"></div>
+        <nav class="navbar">
+            <div class="navbar-img"><img src="9743.png" alt="pompopurin chiquito"></div>
+            <ul navbar-ul>
+                <li class="ul-item"><a href="#" class="li-link">Nosotros</a></li>
+                <li class="ul-item"><a href="#galery" class="li-link">Galeria</a></li>
+                <li class="ul-item"><a href="#contact" class="li-link">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="profile">
+            <div class="profile-wrapper">
+                <div class="profile-img"><img src="pompopurin.jpeg" alt="pompopurin chiquito"></div>
+                <div class="profile__description-container">
+                    <div class="profile-description">
+                        <h1 class="profile-title">¿QUIEN ES POMPOPURIN?</h1>
+                        <p class="profile-p">Pompompurin es un adorable perrito golden retriever de Sanrio! Este cachorro juguetón, apodado "Perro Flan", es un animal amigable, bondadoso, kawaii y cariñoso. Lo reconocerás por su pelaje amarillo claro y su boina marrón. Tiene un gran talento para la siesta. Le encanta la frase "vamos a salir" tanto como odia la palabra "quédate". Es amigo de todos los que se encuentra por el camino y sueña con ser realmente grande.</p>
+                        <div class="cute-level-conteiner">
+                            <h2>NIVEL DE CUTE</h2>
+                            <ul class="cute-level-conteiner--ul">
+                                <li class="cute-level">
+                                    <div class="load_bar">
+                                        <div class="load-bar__bar bar--85">85%</div>
+                                    </div>
+                                    <span class="cute-level-name" id="galery">Cute level</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div >
+        <h2 class="galeria-h2" >GALERIA</h2>
+        <div class="galery" >
+            <div class="galery-wrapper">
+                <div class="img-container"><a href="#" class="img-link"><img src="aaaaaa.jpeg" alt="foto de galeria de pompopurin 1" class="galery-img"></a></div>
+                <div class="img-container"><a href="#" class="img-link"><img src="1f4e8355-2abd-407b-b7b1-e9fada92849f.jpeg" alt="foto de galeria de pompopurin 1" class="galery-img"></a></div>
+                <div class="img-container"><a href="#" class="img-link"><img src="aaaaa.jpeg" alt="foto de galeria de pompopurin 1" class="galery-img"></a></div>
+                <div class="img-container"><a href="#" class="img-link"><img src="8b7e7d33-48fc-4051-a034-0d300a3e83ea.jpeg" alt="foto de galeria de pompopurin 1" class="galery-img"></a></div>
+                <div class="img-container"><a href="#" class="img-link"><img src="aaa.jpeg" alt="foto de galeria de pompopurin 1" class="galery-img"></a></div>
+                <div class="img-container"><a href="#" class="img-link"><img src="edbe78cd-df09-4d6e-adb0-479b5146a189.jpeg" alt="foto de galeria de pompopurin 1" class="galery-img"></a></div>
+                <div class="img-container"><a href="#" class="img-link"><img src="fa58cd83-b530-4707-b351-62a92c16bd27.jpeg" alt="foto de galeria de pompopurin 1" class="galery-img"></a></div>
+                <div class="img-container"><a href="#" class="img-link"><img src="aaaa.jpeg" alt="foto de galeria de pompopurin 1" class="galery-img"></a></div>
+                <div class="img-container" ><a href="#" class="img-link"><img src="kuromicon.jpeg" alt="foto de galeria de pompopurin 1" class="galery-img" ></a></div>
+                <div class="img-container" ><a href="#" class="img-link"><img src="💗💮🌸.jpeg" alt="foto de galeria de pompopurin 1" class="galery-img"></a></div>
+            </div>
+        </div>
+        <a href="#" id="contact"></a>
+        <form >
+            <!--SIMPLE INPUTS-->
+            <div class="title-form">
+                <h2>Formulario de contacto</h2>
+            </div>
+            <fieldset>
+                <legend>Informacion de contacto</legend>
+                <div class="input-form">
+                    <label>Nombre completo
+                    <input type="text" placeholder="Francesca Maria Rio">
+                    </label>
+                </div>
+                <div class="input-form">
+                    <label>Email
+                    <input type="email" placeholder="example@gmail.com">
+                    </label>
+                </div>
+                <div class="input-form">
+                    <label>Telefono
+                    <input type="number" placeholder="Ej: 2657262214">
+                    </label>
+                </div>
+                </fieldset>
+            <!--DATALIST AND OPTIONS-->
+            <div class="input-form">
+                <label>Referente
+                    <input list="referente" name="referente" placeholder="Ej: La Fran">
+                    <datalist id="referente" name="type_of_user">
+                        <option value="La Fran">Una hermosa</option>
+                    </datalist>
+                </select>
+                </label>
+            </div>
+            <!--TEXT AREA-->
+            <div class="input-form">
+                <label>Mensaje
+                <textarea placeholder="escriba su mensaje"></textarea>
+                </label>
+            </div>
+            <!--CHECKBOX-->
+            <div class="input-form">
+                <label>Acepto los <a href="terms.html">terminos y condiciones</a>
+                <input type="checkbox" class="checkbox">
+                </label>
+                <button class="send-button">Enviar</button>
+            </div>
+        </form>
+    </main>
+    <footer>
+        <a><span>FRANWEB</span> - Copyright</a>
+    </footer>
+</body>
+</html>
